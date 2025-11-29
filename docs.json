@@ -31,25 +31,27 @@
         "icon": "link",
         "pages": ["urls/index"]
       },
-      {
-        "tab": "Главный сайт",
-        "icon": "globe",
-        "href": "https://florestmc.ru"
-      },
       { 
         "tab": "Гайды",
         "icon": "book",
         "pages": [
+          "guides/index",
           "guides/bedrock_pc",
           "guides/bedrock_phone",
           "guides/java_pc",
           "guides/java_phone",
-          "guides/donate",
-          "guides/help",
+          "guides/register",
           "guides/map",
           "guides/region",
-          "guides/voicechat"
+          "guides/voicechat",
+          "guides/donate",
+          "guides/help"
         ]
+      },
+      {
+        "tab": "Главный сайт",
+        "icon": "globe",
+        "href": "https://florestmc.ru"
       }
     ]
   },
