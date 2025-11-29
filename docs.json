@@ -7,7 +7,7 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/cdn/img/favicon.png",
+  "favicon": "/cdn/img/icons/favicon.png",
   "errors": {
     "404": {
       "redirect": false,
@@ -17,13 +17,16 @@
   },
   "seo": {
     "metatags": {
-        "canonical": "https://docs.florestmc.ru"
+        "canonical": "https://wiki.florestmc.ru"
     }
   },
   "navigation": {
-    "languages": [
+    "dropdowns": [
       {
-        "language": "en"
+        "dropdown": "Ссылки",
+        "icon": "link",
+        "description": "Ссылки проекта FlorestMC",
+        "pages": "/urls/index"
       }
     ],
     "global": {
@@ -31,19 +34,19 @@
         {
           "anchor": "Главный сайт",
           "href": "https://florestmc.ru/",
-          "icon": "book-open-cover"
+          "icon": "globe"
         },
         {
           "anchor": "Ссылки",
-          "href": "https://docs.florestmc.ru/urls",
-          "icon": "newspaper"
+          "href": "https://wiki.florestmc.ru/ru/urls",
+          "icon": "link"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/cdn/img/icons/logo-light.png",
+    "dark": "/cdn/img/icons/logo-dark.png"
   },
   "navbar": {
     "links": [
@@ -51,24 +54,7 @@
         "label": "Поддержка",
         "href": "mailto:support@florestmc.ru"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+    ]
   },
   "footer": {
     "socials": {
