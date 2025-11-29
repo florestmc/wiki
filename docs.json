@@ -15,6 +15,11 @@
       "description": "Перепроверь написание ссылки!"
     }
   },
+  "seo": {
+    "metatags": {
+        "canonical": "https://docs.florestmc.ru"
+    }
+  },
   "navigation": {
     "tabs": [
       {
