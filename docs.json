@@ -7,10 +7,10 @@
     "light": "#FB2561",
     "dark": "#171E2E"
   },
-  "favicon": "/cdn/img/icons/favicon.png",
+  "favicon": "/cdn/icons/favicon.png",
   "logo": {
-    "light": "/cdn/img/icons/logo-light.png",
-    "dark": "/cdn/img/icons/logo-dark.png"
+    "light": "/cdn/icons/logo-light.png",
+    "dark": "/cdn/icons/logo-dark.png"
   },
   "errors": {
     "404": {
@@ -42,7 +42,6 @@
           "guides/java_phone",
           "guides/register",
           "guides/map",
-          "guides/region",
           "guides/voicechat",
           "guides/donate",
           "guides/help"
