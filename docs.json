@@ -8,10 +8,6 @@
     "dark": "#171E2E"
   },
   "favicon": "/cdn/icons/favicon.png",
-  "logo": {
-    "light": "/cdn/icons/light.png",
-    "dark": "/cdn/icons/dark.png"
-  },
   "errors": {
     "404": {
       "redirect": false,
