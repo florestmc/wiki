@@ -17,7 +17,7 @@
   },
   "seo": {
     "metatags": {
-        "canonical": "https://wiki.florestmc.ru"
+      "canonical": "https://wiki.florestmc.ru"
     }
   },
   "navigation": {
@@ -26,27 +26,31 @@
         "tab": "Информация",
         "icon": "circle-info",
         "pages": [
+          "game/territory",
           "game/providers"
         ]
       },
-      { 
+      {
         "tab": "Гайды",
         "icon": "book",
         "pages": [
           "guides/index",
-          "guides/java_pc",
-          "guides/java_phone",
+          "guides/pc",
+          "guides/phone",
           "guides/register",
-          "guides/map",
-          "guides/voicechat",
-          "guides/donate",
+          "guides/mods",
+          "guides/mods_phone",
+          "guides/voice",
+          "guides/voice_phone",
           "guides/help"
         ]
       },
       {
         "tab": "Ссылки",
         "icon": "link",
-        "pages": ["urls/index"]
+        "pages": [
+          "urls/index"
+        ]
       }
     ]
   },
