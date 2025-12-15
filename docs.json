@@ -26,8 +26,10 @@
         "tab": "Информация",
         "icon": "circle-info",
         "pages": [
-          "game/territory",
-          "game/providers"
+          "game/countries",
+          "game/providers",
+          "game/events",
+          "game/old_events"
         ]
       },
       {
